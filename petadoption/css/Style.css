@@ -1,0 +1,34 @@
+.card {
+    width: 22rem; /* Increased width */
+    height: 30rem; /* Increased height */
+    margin: 20px auto;
+    padding: 15px; /* Added padding to the card */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for a nice effect */
+}
+
+.card-img-top {
+    height: 65%; /* Adjusted the image height to fit better with the increased card size */
+    object-fit: cover; /* Ensures the image fits within the space */
+    border-radius: 8px; /* Optional: Adds slight rounding to the image edges */
+}
+
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%; /* Adjusted body height */
+    padding: 10px; /* Added padding inside the card body */
+}
+
+.card-body h5 {
+    margin-bottom: 10px;
+}
+
+.card-body .btn {
+    margin-bottom: 5px;
+}
